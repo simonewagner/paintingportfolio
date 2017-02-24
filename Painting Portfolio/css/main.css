@@ -1,0 +1,198 @@
+body {
+    margin: 0 auto;
+
+}
+
+
+.nav {
+    width: 100%; 
+    height: 120px;
+    overflow: hidden;
+    position:fixed;
+    top: 0;
+    background: white;
+    box-shadow: 8px 5px 4px rgba(158, 199, 175, 0.7);
+     z-index: 150;
+}
+
+.nav  a {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    height: 80px;   
+    line-height: 80px; 
+}
+
+.logo a{
+    font-family: 'Dawning of a New Day',cursive;
+    font-size: 70px;
+    font-weight:800;
+    float:left;
+    color: #f4d44d;
+    text-decoration: none;
+    padding-right: 20px;
+
+  }
+.logo-home a{
+    font-family: 'Dawning of a New Day',cursive;
+    font-size: 80px;
+    font-weight:800;
+    color: rgb(243, 255, 93);
+    text-decoration: none;
+    width: 800px;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+
+
+li a {
+    float: left;
+    color: #717171;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color:#BCD5F3;
+}
+
+nav li a:hover {
+    background: #BCD5F3;
+    color: white;
+}
+
+img.waves_left{
+    position:relative; 
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+ 
+}
+ 
+img.waves_right{
+    position:relative; 
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.left_column{
+    float: left;
+    position: relative;
+    color: white;
+    border-width: medium;
+    border-style: solid;
+    padding: 100px 40px 100px 40px;
+    margin-top: 50px;
+ 
+    
+}
+
+.right_column{
+    float: right;
+    position: relative;
+    color: white;
+    border-width: medium;
+    border-style: solid;
+    padding: 100px 55px 100px 55px;
+    margin-top: 50px;
+}
+
+.right_column:hover{
+    background-color:white;
+    color:#BCD5F3;
+}
+
+.left_column:hover{
+    background-color:white;
+    color:#BCD5F3;
+}
+
+
+.p_left{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+    
+}
+
+.p_right{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+
+.content{
+    padding-top: 100px;
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+
+.about-content{
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 500px;
+    padding: 20px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #727272;
+}
+
+
+img.portrait{
+    position:relative;
+    left: 15%;
+    border-radius: 50%;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+.p_about{
+    width: 400px;
+    text-align: justify;
+   
+}
+
+.pic-container img{
+    padding: 8px;
+}
+
+.pic-container{
+    margin-top: 150px;
+}
+
+.pic-row1{
+    position:relative;
+    width: 50%;
+    margin: 0 auto;
+}
+.pic-row2{
+    position:relative;
+    width: 50%;
+    margin: 0 auto;
+}.pic-row3{
+    position:relative;
+    width: 50%;
+    margin: 0 auto;
+}.pic-row4{
+    position:relative;
+    width: 50%;
+    margin: 0 auto;
+}
